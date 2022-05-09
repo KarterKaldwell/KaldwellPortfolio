@@ -1,0 +1,131 @@
+
+/* The html, body change I made below was mainly just to make the background more appealing. I researched how to make a simple gradient background and found a color palette that I thought worked.*/
+
+html, body {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to bottom right, #003B46, #C4DFE6)
+}
+
+/* The .header class has mostly basic settings, the main thing that is extra is the stroke/text shadow. It looks a lot more flat without it, so I researched the best way to fix that and ended up hand-writing a shadow template to use for the entire code. It is repeated in multiple classes and codes.*/
+
+.header{
+  font-size: 60px;
+  text-align: center;
+  font-family: "Gabriola", "Segoe Script";
+  color: white;
+  stroke: 1px #F8F8F8;
+  text-shadow: 0px 1px 4px black;
+  left:0;
+  top:0;
+  width: auto;
+   background-color: #243439;
+}
+
+.footer{
+  font-size: 15px;
+  text-align: center;
+  font-family: "Gabriola", "Segoe Script";
+  color: white;
+  stroke: 1px #F8F8F8;
+  text-shadow: 0px 1px 4px black;
+  left:0;
+  top:0;
+  width: auto;
+   background-color: #243439;
+}
+
+.title{
+  color: white;
+	font-size: 47px;
+  font-family: "Gabriola", "Segoe Script";
+  text-align: center;
+	text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+  .paragraph{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: "Calibri", "Calibri Light", "Candara";
+    text-align: center;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+  }
+
+ul {
+  text-align: left;
+  list-style: inside;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.unordered {
+    color: white;
+    font-size: 20px;
+    font-family: "Calibri", "Calibri Light", "Candara";
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+   text-align: left
+  margin-left: auto;
+    margin-right: auto;
+}
+
+.ordered {
+  color: white;
+  font-size: 20px;
+  font-family: "Calibri", "Calibri Light", "Candara";
+  text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+  text-align: left
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links {
+  
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  border: 15px solid white
+}
+
+hr{
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  border-top: 3px double white;
+}
+
+/*I tried to keep the color scheme with the link colors. I kept the outline on them so that the colors didn't clash with the background at all.*/
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: #94c2d2;
+}
+
+a:hover {
+  color: #d2d2d2;
+}
+
+a:active {
+  color: #90e1ff;
+}
